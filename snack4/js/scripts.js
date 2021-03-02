@@ -19,7 +19,7 @@ for (var i = 0; i < teamInzaghi.length; i++) {
   }
 }
 
-if (corretto = true) {
+if (corretto == true) {
   document.getElementById("risposta").innerHTML = "Puoi entrare";
 } else {
   document.getElementById("risposta").innerHTML = "You shall not pass!";

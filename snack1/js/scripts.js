@@ -17,18 +17,12 @@ if (isNaN(numero1)) {
   }
 }
 
-
-
 //Il software stampa il maggiore.
 
 if (numero1 > numero2) {
   document.getElementById('risposta').innerHTML = numero1;
-}
-
-if (numero1 < numero2) {
+} else if (numero1 < numero2) {
   document.getElementById('risposta').innerHTML = numero2;
-}
-
-if (numero1 == numero2) {
+} else {
   document.getElementById('risposta').innerHTML = "I numeri sono uguali";
 }

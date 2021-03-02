@@ -17,4 +17,4 @@ for (var i = 0; i < 6; i++) {
 
 }
 
-console.log(insieme);
+document.getElementById("risposta").innerHTML = "I numeri dispari dell'Array sono " + insieme;

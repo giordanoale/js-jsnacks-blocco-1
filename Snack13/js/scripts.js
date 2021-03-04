@@ -4,12 +4,11 @@
 
 var cose1 = ["penna", "34", "Giovanni", "Si", "Parigi"];
 var cose2 = ["albero", "moffetta", "Equilibrio"];
-
-var i = 0;
+var utente;
 
 do {
 
-  var utente = prompt("Scrivi qualcosa qui sotto");
+  utente = prompt("Scrivi qualcosa qui sotto");
 
   if (cose1.length < cose2.length) {
     cose1.push(utente);
@@ -17,7 +16,6 @@ do {
     cose2.push(utente);
   }
 
-  i++
 } while (cose1.length == cose2.length)
 
 console.log(cose1);

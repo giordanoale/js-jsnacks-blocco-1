@@ -16,7 +16,7 @@ do {
     cose2.push(utente);
   }
 
-} while (cose1.length == cose2.length)
+} while (cose1.length != cose2.length)
 
 console.log(cose1);
 console.log(cose2);
